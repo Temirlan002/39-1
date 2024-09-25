@@ -1,6 +1,5 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import PostPage from './pages/postPage/PostPage';
+import MainPage from './pages/mainPage/MainPage';
 
 
 function App() {
@@ -8,7 +7,7 @@ function App() {
 
   return (
     <div className='App'>
-      <PostPage />
+      <MainPage />
     </div>
   );
 }
